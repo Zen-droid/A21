@@ -1,0 +1,29 @@
+/* TABLET */
+@media(max-width:1000px){
+    .content-wrapper{
+        flex-wrap: wrap;
+        /* margin: 0 auto; */
+        /* background-color: red; */
+    }
+    .content-container{
+        width: 50%;
+        /* background-color: green; */
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+/* HP */
+@media(max-width:670px){
+    .content-wrapper{
+        flex-direction: column;
+        /* margin: 0 auto; */
+        /* background-color: red; */
+    }
+    .content-container{
+        width: 100%;
+        /* background-color: green; */
+        /* margin:0 auto; */
+        /* text-align: center; */
+    }
+}
