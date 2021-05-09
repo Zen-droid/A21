@@ -1,3 +1,61 @@
+.top-wrapper {
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0)), url(s-migaj-Yui5vfKHuzs-unsplash\ \(1\).jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    width: auto;
+    height: auto;
+
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+
+    color:white;
+}
+
+.container {
+    width: 1170px;
+    padding: 200px 50px 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.container h1{
+    font-size:48px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container h2{
+    font-size:36px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container h3{
+    font-size:24px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.button {
+    background-color: #E27D5F;
+    border:none;
+    color:white;
+    text-align:center;
+    font-size:18px;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 20px;
+    font-family: Poppins;
+}
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
