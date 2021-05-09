@@ -60,4 +60,24 @@
   .content-container {
     width: 100%;
   }
+  
+  .headleft{
+        padding-top: 15px;
+        padding-left:8%;
+        font-size:  16px;
+  }
+  
+  .headright{
+        padding-top: 25px;
+        font-size:  12px;
+  }
+  
+    .signin{
+        width:100px
+  }
+  
+  .footleft{
+        padding-top: 15px;
+        font-size: 13px;
+  }
 }
