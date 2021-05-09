@@ -13,7 +13,7 @@ a {
 .header {
   height: 70px;
   width: 100%;
-  background-color: #40b2a1;
+  background-color: rgba(7, 51, 59, 0.9);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,9 +27,17 @@ a {
 }
 
 .headright {
-  color: #000000;
   font-style: normal;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.headright h1 {
+  color: white;
+  font-style: normal;
+  font-size: 15px;
+  margin-right: 20px;
 }
 
 .login {
@@ -43,6 +51,14 @@ a {
 .login:hover {
   background-color: #e27d5f;
   transition: 0.5s;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
 /* Main */
