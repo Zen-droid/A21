@@ -1,3 +1,82 @@
+.header{
+    
+    height:70px;
+    width:100%;
+    background-color: #40B2A1;
+    display:flex;
+
+}
+.headleft{
+    padding-top:10px;
+    padding-left: 10%;
+    flex-grow: 5;
+    color:#FFFFFF;
+    font-style: italic;
+    font-size: 18px;
+
+}
+
+.headright{
+    padding-top:18px;
+    padding-right: 2%;
+    flex-grow: 1;
+    color:#000000;
+    font-style: normal;
+    font-size: 15px;
+ 
+}
+
+.signin{
+    width:130px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+ 
+}
+.signin:hover{
+    background-color: #E27D5F;
+    transition: 0.5s;
+
+}
+.footer{
+    display:flex;
+    
+    flex-direction: row;
+    position:absolute;
+ 
+    color:white;
+    
+    width:100%;
+    bottom:0;
+    background-color: #40B2A1;
+}
+.footleft{
+    padding-left:3%;
+    padding-top:10px;
+    flex-grow:2;
+    font-size: 18px;
+}
+.footcenter{
+    flex-grow:10;
+}
+.footright{
+    flex-grow:1;
+    font-size: 20px;
+    font-style: normal;
+}
+.info{
+    display:flex;
+    flex-direction: row;
+}
+.info li{
+    list-style-type: none;
+    padding :20px;
+}
+
+
 .top-wrapper {
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0)), url(s-migaj-Yui5vfKHuzs-unsplash\ \(1\).jpg);
     background-size:cover;
