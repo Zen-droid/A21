@@ -72,6 +72,22 @@
     width: 100px;
   }
 
+  .header {
+    height: 60px;
+  }
+
+  .headleft {
+    font-size: 14px;
+  }
+
+  .headright {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
   .footer {
     flex-direction: column;
     height: auto;
