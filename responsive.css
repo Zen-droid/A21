@@ -27,6 +27,18 @@
         margin-bottom: 50px;
         text-align: center;
     }
+     /*Bagian Fariz*/
+    .destination-content-wrapper{
+        flex: wrap;
+    }
+    .destination-content-container{
+        width: 50%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    
 }
 
 /* HP */
@@ -57,5 +69,13 @@
         /* background-color: green; */
         /* margin:0 auto; */
         /* text-align: center; */
+    }
+    
+     /*Bagian Fariz*/
+    .destination-content-wrapper{
+        flex-direction: column;
+    }
+    .destination-content-container{
+        width: 100%;
     }
 }
