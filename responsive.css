@@ -1,5 +1,21 @@
 /* TABLET */
 @media(max-width:1000px){
+    .top-wrapper {width: auto;}
+    .container{width: 50%;}
+    .container h1{
+        font-size: 24px;
+    }
+    .container h2{
+        font-size: 20px;
+    }
+    .container h3{
+        font-size: 18px;
+    }
+    .button{
+        width: auto;
+        height: auto;
+        font-size: 16px;
+    }
     .content-wrapper{
         flex-wrap: wrap;
         /* margin: 0 auto; */
@@ -15,6 +31,22 @@
 
 /* HP */
 @media(max-width:670px){
+    .top-wrapper {width: auto;}
+    .container{width: 50%;}
+    .container h1{
+        font-size: 18px;
+    }
+    .container h2{
+     font-size: 14px;
+    }
+    .container h3{
+      font-size: 12px;
+    }
+    .button{
+        font-size:10px;
+        width: auto;
+        height: auto;
+    }
     .content-wrapper{
         flex-direction: column;
         /* margin: 0 auto; */
