@@ -26,6 +26,16 @@
     margin-bottom: 50px;
     text-align: center;
   }
+  
+      .destination-content-wrapper{
+        flex: wrap;
+    }
+    .destination-content-container{
+        width: 50%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
 }
 
 /* HP */
@@ -115,4 +125,11 @@
   .info li {
     margin-bottom: 10px;
   }
+  
+      .destination-content-wrapper{
+        flex-direction: column;
+    }
+    .destination-content-container{
+        width: 100%;
+    }
 }
