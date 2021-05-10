@@ -30,7 +30,7 @@
   .destination-content-wrapper {
     flex-wrap: wrap;
   }
-  .destination-content-container {
+  .flip-card {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
@@ -38,7 +38,7 @@
     /* margin-top: 50px; */
     /* text-align: center; */
   }
-  .destination-content-container p {
+  .flip-card p {
     left: 130px;
   }
 }
@@ -134,7 +134,7 @@
   .destination-content-wrapper {
     flex-direction: column;
   }
-  .destination-content-container {
+  .flip-card {
     width: 100%;
   }
 }
