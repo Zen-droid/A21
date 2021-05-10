@@ -1,5 +1,5 @@
 /* TABLET */
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
   .top-wrapper {
     width: auto;
     background-size: cover;
@@ -26,20 +26,25 @@
     margin-bottom: 50px;
     text-align: center;
   }
-  
-      .destination-content-wrapper{
-        flex: wrap;
-    }
-    .destination-content-container{
-        width: 50%;
-        margin-bottom: 50px;
-        margin-top: 50px;
-        text-align: center;
-    }
+
+  .destination-content-wrapper {
+    flex-wrap: wrap;
+  }
+  .destination-content-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    /* margin-top: 50px; */
+    /* text-align: center; */
+  }
+  .destination-content-container p {
+    left: 130px;
+  }
 }
 
 /* HP */
-@media (max-width: 670px) {
+@media all and (max-width: 670px) {
   .top-wrapper {
     height: 400px;
   }
@@ -125,11 +130,11 @@
   .info li {
     margin-bottom: 10px;
   }
-  
-      .destination-content-wrapper{
-        flex-direction: column;
-    }
-    .destination-content-container{
-        width: 100%;
-    }
+
+  .destination-content-wrapper {
+    flex-direction: column;
+  }
+  .destination-content-container {
+    width: 100%;
+  }
 }

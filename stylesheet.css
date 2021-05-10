@@ -14,16 +14,23 @@ a {
   height: 70px;
   width: 100%;
   background-color: rgba(7, 51, 59, 0.9);
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 50px;
+  justify-content: space-between; */
+  padding: 10px 50px;
 }
 
 .headleft {
   color: white;
-  /* font-style: italic; */
   font-size: 18px;
+  float: left;
+}
+
+.menu-icon {
+  color: white;
+  display: none;
+  float: right;
+  padding: 18px 0;
 }
 
 .headright {
@@ -31,6 +38,7 @@ a {
   font-size: 15px;
   display: flex;
   align-items: center;
+  float: right;
 }
 
 .headright h1 {
@@ -51,14 +59,6 @@ a {
 .login:hover {
   background-color: #e27d5f;
   transition: 0.5s;
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
 }
 
 /* Main */
@@ -109,47 +109,57 @@ a {
 }
 
 /* Destination */
-.image{
-    width: 250px;
-    height: 330px;
+.image {
+  width: 250px;
+  height: 300px;
 }
 
-.destination-title{
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 28px;
+.destination-title {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 28px;
 }
-.destination-wrapper{
-    height: 233px;
-}
-
-.destination-content-wrapper{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 70px;
+.destination-wrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.destination-content-container{
-    height: 300px;
-    width: 330px;
-    transition: 0.5s;
-    opacity: 0.6;
-    position: relative;
+.destination-content-wrapper {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.destination-content-container:hover{
-    opacity: 2;
+.destination-content-container {
+  /* height: 300px;
+  width: 230px; */
+  position: relative;
 }
 
-.destination-content-container p{
-    font-size: 20px;
-    position:absolute;
-	bottom:0;
-	left:0;
-	color:#fff;
-	width:100%;
-	margin:0;
+.destination-content-container img {
+  height: 300px;
+  width: 230px;
+}
+
+.overlay {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, #000000 100%);
+  width: 230px;
+  height: 300px;
+  position: absolute;
+}
+
+/* .destination-content-container:hover {
+  opacity: 2;
+} */
+
+.destination-content-container p {
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  width: 100%;
+  margin: 0;
 }
 
 /* Services */
